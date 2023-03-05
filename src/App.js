@@ -29,54 +29,55 @@ function App() {
 
   const questions=[
       {
-          text:"which is the capital of america",
+          text:"What is an Array",
           options:[
-              {id:0,text:"Bostan",iscorrect:false},
-              {id:1,text:"New york city",iscorrect:false},
-              {id:2,text:"Santa fe",iscorrect:false},
-              {id:3,text:"Washington",iscorrect:true}
+              {id:0,text:"An array is an special variable ,which is used to store more than one value",iscorrect:false},
+              {id:1,text:"Array index starts from 0",iscorrect:false},
+              {id:2,text:"Array length count starts from 1",iscorrect:false},
+              {id:3,text:"All of the above",iscorrect:true}
           ]
       },
       {
-          text:"which is ur country",
+          text:"Which statement is false",
           options:[
-              {id:0,text:"America",iscorrect:false},
-              {id:1,text:"Africa",iscorrect:false},
-              {id:2,text:"India",iscorrect:true},
-              {id:3,text:"Afganisthan",iscorrect:false},
+              {id:0,text:"let keyword can be Reassigned",iscorrect:false},
+              {id:1,text:"let keyword can be Redeclared",iscorrect:true},
+              {id:2,text:"let keyword used in block scope",iscorrect:false},
+              {id:3,text:"let keyword can be Hoisted",iscorrect:false}
           ],
       },
         {
-          text: "Who was the second president of the US",
+          text: "What is an Concat method",
           options: [
-            { id: 0, text: "John Adams", isCorrect: true },
-            { id: 1, text: "Paul Revere", isCorrect: false },
-            { id: 2, text: "Thomas Jefferson", isCorrect: false },
-            { id: 3, text: "Benjamin Franklin", isCorrect: false },
+            { id: 0, text: "it joins two or more array", iscorrect:false },
+            { id: 1, text: "it returns a new array,containing the joined arrays", iscorrect:false },
+            { id: 2, text: "it does not change the existing array", iscorrect:false },
+            { id: 3, text: "All of the above", iscorrect:true }
           ],
         },
         {
-          text: "What is the largest state in the US",
+          text: "What is an Javascript",
           options: [
-            { id: 0, text: "California", isCorrect: false },
-            { id: 1, text: "Alaska", isCorrect: true },
-            { id: 2, text: "Texas", isCorrect: false },
-            { id: 3, text: "Montana", isCorrect: false },
+            { id: 0, text: "Javascript is an multithreaded language", iscorrect:false },
+            { id: 1, text: "Javascript is an singlethreaded language", iscorrect:false },
+            { id: 2, text: "Javascript is an dyanmically typed language ", iscorrect:false },
+            { id: 3, text: "Both 1 and 2", iscorrect:true }
           ],
         },
         {
-          text: "Which of the following countries DO NOT border the US",
+          text: "eval('10*10+5')",
           options: [
-            { id: 0, text: "Canada", isCorrect: false },
-            { id: 1, text: "Russia", isCorrect: true },
-            { id: 2, text: "Cuba", isCorrect: true },
-            { id: 3, text: "Mexico", isCorrect: false },
+            { id: 0, text: "'105'", iscorrect:true },
+            { id: 1, text: "105", iscorrect:false },
+            { id: 2, text: "150", iscorrect:false },
+            { id: 3, text: "'10*10+5'", iscorrect:false }
           ],
         },
   ]
   return (
     <div className="App">
        <h1>General Quiz</h1>
+      <h4>Topic : Javascript</h4>
             {/* <h2>your correct answer :{score} </h2> shouldn't show at the time of quiz */}
             {showresult ? (
             <div className="final-results">

@@ -1,23 +1,6 @@
 *{
   box-sizing: border-box;
 }
-/* .App {
-  text-align: center;
-  width:40%;
-  border:1px solid;
-  margin: 20px;
-  margin-left: 30vw;
-  padding: 10px;
-  background-color: rgba(0, 128, 0, 0.61);
-} */
-/* .question-card{
-  width:40%;
-  border:1px solid;
-  margin: 20px;
-  margin-left: 30vw;
-  padding: 10px;
-  background-color: rgba(0, 128, 0, 0.61);
-} */
 
 .App{
   width: 100%;
@@ -63,20 +46,10 @@ ul{
   display: flex;
   flex-direction: column;
 }
-/* .final-results{
-  width:40%;
-  border:1px solid;
-  margin: 20px;
-  margin-left: 30vw;
-  padding: 10px;
-  background-color: rgba(136, 20, 107, 0.445);
-  border-radius: 8px;
-} */
 
 .final-results{
   width: fit-content;
   border: 1px solid;
   padding: 10px;
   background-color: rgba(85, 179, 31, 0.712);
-  /* background-color: rgba(136, 20, 107, 0.445); */
 }
