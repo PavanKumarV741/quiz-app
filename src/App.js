@@ -47,7 +47,7 @@ function App() {
           ],
       },
         {
-          text: "Who was the second president of the US?",
+          text: "Who was the second president of the US",
           options: [
             { id: 0, text: "John Adams", isCorrect: true },
             { id: 1, text: "Paul Revere", isCorrect: false },
@@ -56,7 +56,7 @@ function App() {
           ],
         },
         {
-          text: "What is the largest state in the US?",
+          text: "What is the largest state in the US",
           options: [
             { id: 0, text: "California", isCorrect: false },
             { id: 1, text: "Alaska", isCorrect: true },
@@ -65,7 +65,7 @@ function App() {
           ],
         },
         {
-          text: "Which of the following countries DO NOT border the US?",
+          text: "Which of the following countries DO NOT border the US",
           options: [
             { id: 0, text: "Canada", isCorrect: false },
             { id: 1, text: "Russia", isCorrect: true },
@@ -88,7 +88,7 @@ function App() {
             ):(
             <div className="question-card">
                 <h2>Question: {currentquestion+1} out of {questions.length} </h2>
-                <h3 className="question-text">({currentquestion+1}){questions[currentquestion].text}?</h3>
+                <h3 className="question-text">({currentquestion+1}) {questions[currentquestion].text} ?</h3>
                 <ul>
                     {questions[currentquestion].options.map((option)=>{
                         return(
