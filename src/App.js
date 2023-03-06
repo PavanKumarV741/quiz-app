@@ -61,7 +61,7 @@ function App() {
             { id: 0, text: "Javascript is an multithreaded language", iscorrect:false },
             { id: 1, text: "Javascript is an singlethreaded language", iscorrect:false },
             { id: 2, text: "Javascript is an dyanmically typed language ", iscorrect:false },
-            { id: 3, text: "Both 1 and 2", iscorrect:true }
+            { id: 3, text: "Both 2 and 3", iscorrect:true }
           ],
         },
         {
